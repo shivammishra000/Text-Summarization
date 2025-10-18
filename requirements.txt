@@ -1,38 +1,21 @@
-# Transformers for NLP models
 transformers
 transformers[sentencepiece]
-
-# Datasets for handling data easily
 datasets
-
-# Evaluation metrics
-sacrebleu
-rouge-score
-
-# Data handling and utility libraries
+sacrebleu 
+rouge_score 
 py7zr
 pandas
 nltk
 tqdm
 PyYAML
 matplotlib
-
-# PyTorch (CPU + CUDA compatible)
 torch
-
-# Notebook support
 notebook
-
-# AWS (if needed)
 boto3
 mypy-boto3-s3
-
-# Config/utility libraries
-python-box>=6.0.2
-ensure>=1.0.2
-
-# Web API for FastAPI project
-fastapi>=0.101.1
-uvicorn>=0.23.1
-Jinja2>=3.1.2
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3
+Jinja2==3.1.2
 -e .
