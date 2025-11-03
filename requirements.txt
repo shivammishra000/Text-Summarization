@@ -11,6 +11,8 @@ PyYAML
 matplotlib
 torch --index-url https://download.pytorch.org/whl/cpu
 notebook
+flask
+evaluate
 boto3
 mypy-boto3-s3
 python-box==6.0.2
