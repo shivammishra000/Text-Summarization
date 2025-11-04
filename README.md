@@ -49,6 +49,7 @@ Amanda: Don't be shy, he's very nice.
 
 ### Model Details
 
+1. Database: Hugging Face Samsum
 1. Model: facebook/bart-large-cnn (or T5-base)
 2. Tokenizer: Hugging Face Transformers
 3. Frameworks: PyTorch, Transformers
