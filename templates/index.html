@@ -14,31 +14,33 @@
 
     body {
       min-height: 100vh;
-      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .container {
-      background: #ffffff;
+      background: #f4f7fc;
       width: 90%;
       max-width: 700px;
-      padding: 30px 40px;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      padding: 35px 45px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
 
     h2 {
       text-align: center;
-      color: #333;
+      color: #1e3c72;
       margin-bottom: 20px;
+      font-size: 26px;
+      letter-spacing: 1px;
     }
 
     label {
       font-size: 16px;
-      font-weight: 500;
-      color: #444;
+      font-weight: 600;
+      color: #333;
       display: block;
       margin-bottom: 8px;
     }
@@ -47,17 +49,18 @@
       width: 100%;
       height: 180px;
       padding: 12px;
-      border: 2px solid #ccc;
-      border-radius: 8px;
+      border: 2px solid #cfd8ef;
+      border-radius: 10px;
       font-size: 15px;
       resize: none;
       outline: none;
       transition: 0.3s;
+      background-color: #fff;
     }
 
     textarea:focus {
-      border-color: #66a6ff;
-      box-shadow: 0 0 5px rgba(102, 166, 255, 0.5);
+      border-color: #5a7bff;
+      box-shadow: 0 0 10px rgba(90, 123, 255, 0.5);
     }
 
     .btn {
@@ -65,40 +68,43 @@
       width: 100%;
       margin-top: 20px;
       padding: 12px;
-      background: #66a6ff;
+      background: linear-gradient(135deg, #5a7bff, #8e44ad);
       color: white;
       font-size: 17px;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: all 0.3s ease;
     }
 
     .btn:hover {
-      background: #558de8;
+      background: linear-gradient(135deg, #4a68e8, #7d3cb0);
+      box-shadow: 0 5px 15px rgba(93, 76, 255, 0.4);
+      transform: translateY(-1px);
     }
 
     .summary-box {
       margin-top: 25px;
-      background: #f9f9f9;
+      background: #eef1fb;
       padding: 15px;
-      border-left: 4px solid #66a6ff;
-      border-radius: 8px;
-      color: #333;
+      border-left: 5px solid #5a7bff;
+      border-radius: 10px;
+      color: #222;
       white-space: pre-wrap;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     @media (max-width: 600px) {
       .container {
-        padding: 20px;
+        padding: 25px;
       }
 
       textarea {
         height: 150px;
       }
     }
-  </style>
+</style>
+
 </head>
 
 <body>
