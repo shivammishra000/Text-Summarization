@@ -19,11 +19,10 @@
 
 ### 1.Clone the Repository
 git clone https://github.com/shivammishra000/Text-Summarization.git
-cd Text-Summarization
 
 ### 2.Create and Activate Virtual Environment
 conda create -n summary python=3.10 -y
-conda activate summary
+, conda activate summary
 
 ### 3.Install Requirements
 pip install -r requirements.txt
