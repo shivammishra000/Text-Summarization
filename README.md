@@ -63,8 +63,6 @@ Amanda: Don't be shy, he's very nice.
 
 ### Author Details
 
-Shivam Mishra
-ishivammishra2003@gmail.com
-LinkedIn https://www.linkedin.com/in/shivam-mishra-38322b260/
-GitHub https://github.com/shivammishra000/Text-Summarization
+- Shivam Mishra
+- LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7391480789290512384/
 
